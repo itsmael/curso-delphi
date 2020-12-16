@@ -3,8 +3,8 @@
 	<Transactions>
     <Transaction>2020/11/06 21:52:48.000.322,=D:\Study\Delphi\Unit1.pas</Transaction>
     <Transaction>2020/12/14 22:15:22.000.430,=D:\Study\Delphi\Unit1.pas</Transaction>
-    <Transaction>2020/12/14 22:15:51.000.205,D:\Study\Delphi\Unit1.dfm=D:\Study\curso-delphi\calcula-parcelas\UntParcelas.dfm</Transaction>
-    <Transaction>2020/12/14 22:15:51.000.205,D:\Study\Delphi\Unit1.pas=D:\Study\curso-delphi\calcula-parcelas\UntParcelas.pas</Transaction>
-    <Transaction>2020/12/14 22:16:02.000.205,D:\Study\Delphi\Project1.dproj=D:\Study\curso-delphi\calcula-parcelas\PrjCalculaParcelas.dproj</Transaction>
+    <Transaction>2020/12/14 22:15:51.000.205,D:\Study\curso-delphi\calcula-parcelas\UntParcelas.pas=D:\Study\Delphi\Unit1.pas</Transaction>
+    <Transaction>2020/12/14 22:15:51.000.205,D:\Study\curso-delphi\calcula-parcelas\UntParcelas.dfm=D:\Study\Delphi\Unit1.dfm</Transaction>
+    <Transaction>2020/12/14 22:16:02.000.205,D:\Study\curso-delphi\calcula-parcelas\PrjCalculaParcelas.dproj=D:\Study\Delphi\Project1.dproj</Transaction>
   </Transactions>
 </BorlandProject>

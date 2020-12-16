@@ -57,6 +57,7 @@ object frmMain: TfrmMain
     Height = 25
     Caption = '-'
     TabOrder = 3
+    OnClick = btnSubClick
   end
   object btnProd: TBitBtn
     Left = 170
@@ -65,6 +66,7 @@ object frmMain: TfrmMain
     Height = 25
     Caption = '*'
     TabOrder = 4
+    OnClick = btnProdClick
   end
   object btnDiv: TBitBtn
     Left = 170
@@ -73,6 +75,7 @@ object frmMain: TfrmMain
     Height = 25
     Caption = '/'
     TabOrder = 5
+    OnClick = btnDivClick
   end
   object mmoResult: TMemo
     Left = 60
