@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/11/06 21:52:48.000.322,=D:\Study\Delphi\Unit1.pas</Transaction>
+    <Transaction>2020/12/16 01:04:07.217,=D:\Study\Delphi\Unit1.pas</Transaction>
+    <Transaction>2020/12/16 01:04:37.552,D:\Study\curso-delphi\trinagulo\untTriangulo.pas=D:\Study\Delphi\Unit1.pas</Transaction>
+    <Transaction>2020/12/16 01:04:37.552,D:\Study\curso-delphi\trinagulo\untTriangulo.dfm=D:\Study\Delphi\Unit1.dfm</Transaction>
+    <Transaction>2020/12/16 01:04:46.592,D:\Study\curso-delphi\trinagulo\prjTriangulo.dproj=D:\Study\Delphi\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

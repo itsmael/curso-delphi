@@ -2,9 +2,9 @@
 <BorlandProject>
 	<Transactions>
     <Transaction>2020/11/06 21:52:48.000.322,=D:\Study\Delphi\Unit1.pas</Transaction>
-    <Transaction>2020/12/15 01:06:25.121,=D:\Study\Delphi\Unit1.pas</Transaction>
-    <Transaction>2020/12/15 01:06:43.216,D:\Study\curso-delphi\calculadora\untCalculadora.pas=D:\Study\Delphi\Unit1.pas</Transaction>
-    <Transaction>2020/12/15 01:06:43.216,D:\Study\curso-delphi\calculadora\untCalculadora.dfm=D:\Study\Delphi\Unit1.dfm</Transaction>
-    <Transaction>2020/12/15 01:07:10.091,D:\Study\curso-delphi\calculadora\prjCalculadora.dproj=D:\Study\Delphi\Project1.dproj</Transaction>
+    <Transaction>2020/12/15 01:06:25.000.121,=D:\Study\Delphi\Unit1.pas</Transaction>
+    <Transaction>2020/12/15 01:06:43.000.216,D:\Study\Delphi\Unit1.dfm=D:\Study\curso-delphi\calculadora\untCalculadora.dfm</Transaction>
+    <Transaction>2020/12/15 01:06:43.000.216,D:\Study\Delphi\Unit1.pas=D:\Study\curso-delphi\calculadora\untCalculadora.pas</Transaction>
+    <Transaction>2020/12/15 01:07:10.000.091,D:\Study\Delphi\Project1.dproj=D:\Study\curso-delphi\calculadora\prjCalculadora.dproj</Transaction>
   </Transactions>
 </BorlandProject>
