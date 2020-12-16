@@ -1,6 +1,6 @@
 # Curso Delphi
 
-#Exercício Calculadora Simples
+#Exercício determinar tipo de triângulo!
 
 . Fazer um programa que recebe os três lados de um triângulo e determina se o triângulo é equilátero, isóceles ou escaleno.
 
