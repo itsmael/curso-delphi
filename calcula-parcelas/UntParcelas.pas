@@ -31,27 +31,20 @@ implementation
 procedure TfrmMain.btnCalculaClick(Sender: TObject);
 var
   a,b,I,divInteira: integer;
-  divFloat,resto: double;
-
-
+  resto: double;
 begin
+  mmoResult.Clear;
+
   a:= StrToInt(edtValor.Text);
   b:= StrToInt(edtParcelas.Text);
-  divFloat:= a/b ;
   divInteira := a div b;
   resto:= a mod b ;
 
-  if (a mod b = 0) then
-    for I := 1 to b do
-    begin
-      mmoResult.Lines.Add('Parcela '+IntToStr(I)+' No valor de '+ FloatToStr(divFloat) )
-    end
-  else
-    for I := 1 to b do
-    begin
-      mmoResult.Lines.Add('Parcela '+IntToStr(I)+' No valor de '+ FloatToStr(divInteira) )
-    end;
-    mmoResult.Lines.Add('Parcela '+IntToStr(I)+ ' No valor de: ' + FloatToStr(resto));
+  for I := 1 to b -1 do
+  begin
+    mmoResult.Lines.Add('Parcela '+IntToStr(I)+' No valor de '+ FloatToStr(divInteira));
+  end;
+  mmoResult.Lines.Add('Parcela '+IntToStr(b)+ ' No valor de: ' + FloatToStr(resto+divInteira));
 
 end;
 
