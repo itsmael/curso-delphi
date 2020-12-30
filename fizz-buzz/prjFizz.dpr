@@ -2,13 +2,13 @@ program prjFizz;
 
 uses
   Vcl.Forms,
-  untFizz in 'untFizz.pas' {Form1};
+  untFizz in 'untFizz.pas' {frmFizzBuzz};
 
 {$R *.res}
 
 begin
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
-  Application.CreateForm(TForm1, Form1);
+  Application.CreateForm(TfrmFizzBuzz, frmFizzBuzz);
   Application.Run;
 end.

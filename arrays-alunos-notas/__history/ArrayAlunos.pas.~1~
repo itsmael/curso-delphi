@@ -1,0 +1,23 @@
+unit ArrayAlunos;
+
+interface
+type
+  TAlunos = class
+  private
+    Notas: array[0..9] of double;
+
+  public
+    function Add(aluno: string; nota:double):boolean;
+
+  end;
+
+implementation
+
+{ TAlunos }
+
+function TAlunos.Add(aluno: string; nota: double): boolean;
+begin
+
+end;
+
+end.

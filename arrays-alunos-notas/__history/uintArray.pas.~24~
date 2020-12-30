@@ -1,0 +1,45 @@
+unit uintArray;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Grids, Vcl.StdCtrls, Vcl.Buttons, ArrayAlunos;
+
+type
+  TfrmPrincipal = class(TForm)
+    btnAdd: TBitBtn;
+    mmoResult: TMemo;
+    procedure btnAddClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmPrincipal: TfrmPrincipal;
+  count: Integer;
+
+implementation
+
+{$R *.dfm}
+
+uses Calcula, BoletimEscolar ;
+
+
+procedure TfrmPrincipal.btnAddClick(Sender: TObject);
+var
+  Boletin: TBoletimEscolar;
+begin
+  Boletin:= TBoletimEscolar.create;
+  try
+    Boletin.Popula;
+    Boletin.Calcula;
+    ShowMessage(Boletin.NomeMaiorNota);
+  finally
+    Boletin.Free;
+  end;
+end;
+
+end.

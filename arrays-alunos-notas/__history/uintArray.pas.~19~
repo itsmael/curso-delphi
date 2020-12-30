@@ -1,0 +1,49 @@
+unit uintArray;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Grids, Vcl.StdCtrls, Vcl.Buttons, ArrayAlunos;
+
+type
+  TfrmPrincipal = class(TForm)
+    edtNome: TEdit;
+    edtNota: TEdit;
+    btnAdd: TBitBtn;
+    mmoResult: TMemo;
+    Nome: TLabel;
+    Nota: TLabel;
+    procedure btnAddClick(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  frmPrincipal: TfrmPrincipal;
+  count: Integer;
+
+implementation
+
+{$R *.dfm}
+
+uses Calcula;
+
+
+procedure TfrmPrincipal.btnAddClick(Sender: TObject);
+var
+  MrBatata: TCalcula;
+begin
+  MrBatata:= TCalcula.create;
+  try
+    ShowMessage(MrBatata.Popula);
+  finally
+    MrBatata.Free;
+  end;
+
+
+end;
+
+end.

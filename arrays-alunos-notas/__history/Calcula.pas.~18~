@@ -1,0 +1,83 @@
+unit Calcula;
+
+interface
+uses
+  SysUtils, ArrayAlunos;
+type
+  TCalcula= class
+  private
+
+  public
+    ArraydeAlunos: array[0..3] of TAlunos;
+    function Popula: string;
+  end ;
+
+
+
+implementation
+
+{ TCalcula }
+
+function TCalcula.Popula: string;
+var
+  Aluno1: TAlunos;
+  Aluno2: TAlunos;
+  Aluno3: TAlunos;
+  Aluno4: TAlunos;
+  I: Integer;
+  MaiorNota: Integer;
+  MenorNota: Integer;
+  Media: double;
+
+begin
+  Aluno1:= TAlunos.Create;
+  Aluno2:= Talunos.Create;
+  Aluno3:= Talunos.Create;
+  Aluno4:= Talunos.Create;
+
+  try
+    Aluno1.Nome := 'Batata';
+    Aluno1.Nota := 5;
+    Aluno2.Nome := 'Beterraba';
+    Aluno2.Nota := 7;
+    Aluno3.Nome := 'cebola';
+    Aluno3.Nota := 9;
+    Aluno4.Nome := 'cebolinha';
+    Aluno4.Nota := 8;
+
+    ArraydeAlunos[0] := Aluno1;
+    ArraydeAlunos[1] := Aluno2;
+    ArraydeAlunos[2] := Aluno3;
+    ArraydeAlunos[3] := Aluno4;
+
+    MaiorNota := ArraydeAlunos[0].Nota;
+    MenorNota := ArraydeAlunos[0].Nota;
+    Media:= ArraydeAlunos[0].Nota;
+
+    for I := 1 to 3 do
+    begin
+      Media := ArraydeAlunos[I].Nota + Media;
+      if (ArraydeAlunos[I].Nota > MaiorNota) then
+        MaiorNota := ArraydeAlunos[I].Nota;
+      if (ArraydeAlunos[I].Nota < MenorNota) then
+        MenorNota := ArraydeAlunos[I].Nota;
+    end;
+
+    Media := Media / Length(ArraydeAlunos);
+
+
+    Result := ('A maior nota é ' + IntToStr(MaiorNota) + #13 + 'A menor nota é: ' + IntToStr(MenorNota) + #13 + 'A média é ' + FloatToStr(Media)  ) ;
+
+  finally
+    FreeAndNil(Aluno1);
+    FreeAndNil(Aluno2);
+    FreeAndNil(Aluno3);
+    FreeAndNil(Aluno4);
+
+  end;
+
+
+
+end;
+
+end.

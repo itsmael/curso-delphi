@@ -1,0 +1,61 @@
+unit Calcula;
+
+interface
+uses
+  SysUtils, ArrayAlunos;
+type
+  TCalcula= class
+  private
+
+  public
+    ArraydeAlunos: array[0,3] of TAlunos;
+    procedure Popula;
+  end ;
+
+
+
+implementation
+
+{ TCalcula }
+
+procedure TCalcula.Popula;
+var
+  Aluno1: TAlunos;
+  Aluno2: TAlunos;
+  Aluno3: TAlunos;
+  Aluno4: TAlunos;
+
+begin
+  Aluno1:= TAlunos.Create;
+  Aluno2:= Talunos.Create;
+  Aluno3:= Talunos.Create;
+  Aluno4:= Talunos.Create;
+
+  try
+    Aluno1.Nome := 'Batata';
+    Aluno1.Nota := 5;
+    Aluno2.Nome := 'Beterraba';
+    Aluno2.Nota := 7;
+    Aluno3.Nome := 'cebola';
+    Aluno3.Nota := 8;
+    Aluno4.Nome := 'cebolinha';
+    Aluno4.Nota := 9;
+
+    ArraydeAlunos[0] := Aluno1;
+    ArraydeAlunos[1] := Aluno2;
+    ArraydeAlunos[2] := Aluno3;
+    ArraydeAlunos[3] := Aluno4;
+
+  finally
+    FreeAndNil(Aluno1);
+    FreeAndNil(Aluno2);
+    FreeAndNil(Aluno3);
+    FreeAndNil(Aluno4);
+
+  end;
+
+
+
+end;
+
+end.
