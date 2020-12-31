@@ -3,10 +3,12 @@
 	<Transactions>
     <Transaction>2020/11/06 21:52:48.000.322,=D:\Study\Delphi\Unit1.pas</Transaction>
     <Transaction>2020/12/20 14:26:11.000.187,=D:\Study\Delphi\Unit1.pas</Transaction>
-    <Transaction>2020/12/20 14:26:46.000.932,D:\Study\curso-delphi\arrays-alunos-notas\uintArray.pas=D:\Study\Delphi\Unit1.pas</Transaction>
-    <Transaction>2020/12/20 14:26:46.000.932,D:\Study\curso-delphi\arrays-alunos-notas\uintArray.dfm=D:\Study\Delphi\Unit1.dfm</Transaction>
-    <Transaction>2020/12/20 14:26:56.000.104,D:\Study\curso-delphi\arrays-alunos-notas\prjArray.dproj=D:\Study\Delphi\Project1.dproj</Transaction>
+    <Transaction>2020/12/20 14:26:46.000.932,D:\Study\Delphi\Unit1.dfm=D:\Study\curso-delphi\arrays-alunos-notas\uintArray.dfm</Transaction>
+    <Transaction>2020/12/20 14:26:46.000.932,D:\Study\Delphi\Unit1.pas=D:\Study\curso-delphi\arrays-alunos-notas\uintArray.pas</Transaction>
+    <Transaction>2020/12/20 14:26:56.000.104,D:\Study\Delphi\Project1.dproj=D:\Study\curso-delphi\arrays-alunos-notas\prjArray.dproj</Transaction>
     <Transaction>2020/12/22 22:21:14.000.477,=D:\Study\curso-delphi\arrays-alunos-notas\Unit1.pas</Transaction>
-    <Transaction>2020/12/22 22:21:23.000.451,D:\Study\curso-delphi\arrays-alunos-notas\Unit1.pas=D:\Study\curso-delphi\arrays-alunos-notas\Calcula.pas</Transaction>
+    <Transaction>2020/12/22 22:21:23.000.451,D:\Study\curso-delphi\arrays-alunos-notas\Calcula.pas=D:\Study\curso-delphi\arrays-alunos-notas\Unit1.pas</Transaction>
+    <Transaction>2020/12/30 19:13:14.576,=D:\Study\curso-delphi\arrays-alunos-notas\Unit1.pas</Transaction>
+    <Transaction>2020/12/30 19:17:39.564,D:\Study\curso-delphi\arrays-alunos-notas\BoletimEscolar.pas=D:\Study\curso-delphi\arrays-alunos-notas\Unit1.pas</Transaction>
   </Transactions>
 </BorlandProject>

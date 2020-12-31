@@ -38,7 +38,7 @@ begin
     Boletin.Calcula;
     mmoResult.Lines.Add('O aluno com maior nota é: ' + Boletin.NomeMaiorNota + ' E a sua nota foi: ' + IntToStr(Boletin.MaiorNota));
     mmoResult.Lines.Add('O aluno com menor nota é: ' + Boletin.NomeMenorNota + ' E a sua nota foi: ' + IntToStr(Boletin.MenorNota));
-        mmoResult.Lines.Add('A média dos alunos é:  '  + FloatToStr(Boletin.Media));
+    mmoResult.Lines.Add('A média dos alunos é:  '  + FloatToStr(Boletin.Media));
   finally
     Boletin.Free;
   end;
